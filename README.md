@@ -1,7 +1,7 @@
 # Grid Printer
 
 **Prints PIL images to a grid, with captions and a title.**  
-Uses font metrics to determine how much space is needed to display captions. Does not scale your images; pastes them unchanged. Images will not be occluded by text; if we need more space for text, we allocate it.  
+Uses font metrics to determine how much space is needed to display captions. Does not scale your images; pastes them unchanged. Images will not be occluded by text; if we need more space for text, we allocate it. Supports text padding.  
 _Note: requires monospaced font._
 
 ```python
